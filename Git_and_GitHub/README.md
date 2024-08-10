@@ -39,8 +39,7 @@ To clone (or copy) a remote repository down to your local machine.
 
 ## 2-step Commit
 
-                      git add                      git commit
-Working Directory  \-\-\-\-\-\-\-\-\-\-\-\-\->  Staging Area  \-\-\-\-\-\-\-\-\-\-\-\-\-> History (log)
+Working Directory&nbsp; \-\-`git add`\-\-\>&nbsp;  Staging Area&nbsp; \-\-`git commit`\-\-\>&nbsp; History (log)
 
 ## Merging
 There are 2 ways to do it:
@@ -54,10 +53,10 @@ It occurs when you try to merge together two branches on which a same file has b
 Be careful when rebasing. It changes the history. But, it can be useful to make your history more linear.
 
 ## Undoing Commits
-`git revert` (the best way to do it)
-`git reset`
-`git commit-ammend` (to change a commit message)
-`git cherry-pick`
+- `git revert` (the best way to do it)
+- `git reset`
+- `git commit-ammend` (to change a commit message)
+- `git cherry-pick`
 
 
 [git_documentation]: https://git-scm.com
