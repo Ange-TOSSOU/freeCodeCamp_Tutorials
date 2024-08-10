@@ -37,5 +37,28 @@ To clone (or copy) a remote repository down to your local machine.
   - the parent commit,
   - etc.
 
+## 2-step Commit
+
+                      git add                      git commit
+Working Directory  \-\-\-\-\-\-\-\-\-\-\-\-\->  Staging Area  \-\-\-\-\-\-\-\-\-\-\-\-\-> History (log)
+
+## Merging
+There are 2 ways to do it:
+- Remote merge (by opening a pull request), and
+- Locally merge
+
+## Merge Conflicts
+It occurs when you try to merge together two branches on which a same file has been modified on both branches and at the same line.
+
+## Rebasing
+Be careful when rebasing. It changes the history. But, it can be useful to make your history more linear.
+
+## Undoing Commits
+`git revert` (the best way to do it)
+`git reset`
+`git commit-ammend` (to change a commit message)
+`git cherry-pick`
+
+
 [git_documentation]: https://git-scm.com
 
