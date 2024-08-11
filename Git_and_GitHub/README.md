@@ -1,5 +1,7 @@
 # Git & GitHub
 
+You can find this [tutorial][tutorial_material] on Youtube.
+
 ## Introduction
 - Git is an open source version control software which allows you to keep track of all the changes made to a project. Find full documentation on [https://git-scm.com][git_documentation].
 - GitHub is a collaboration website that interacts with Git.
@@ -58,6 +60,8 @@ Be careful when rebasing. It changes the history. But, it can be useful to make 
 - `git commit-ammend` (to change a commit message)
 - `git cherry-pick`
 
+
+[tutorial_material]: https://www.youtube.com/watch?v=vR-y_2zWrIE&list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF&pp=iAQB
 
 [git_documentation]: https://git-scm.com
 
